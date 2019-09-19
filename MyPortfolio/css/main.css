@@ -1,0 +1,198 @@
+#wrapper {
+  width: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+#header {
+  position: relative;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.navbar-nav {
+  width: 100%;
+  font-size: 30;
+}
+
+.logo {
+  position: absolute;
+  top: 45%;
+  left: 10%;
+  color: #fff;
+}
+
+.logo-name, .logo-desc {
+  font-size: 40;
+  font-weight:600; 
+}
+
+.logo-title {
+  font-size: 90;
+  font-weight: 900;
+}
+
+
+.header-image {
+  width: 100%;
+  height: 100vh;
+}
+
+.fadein {
+  opacity: 0;
+  transform : translate(0, 50px);
+  transition : all 1500ms;
+}
+
+.fadein.scrollin{
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+.section {
+  width: 100%;
+}
+
+.inner {
+  padding: 0 30 100 30;
+  margin: auto;
+}
+
+.inner {
+  width: 80%;
+}
+
+.section-title-block {
+  padding-top: 50;
+  margin-bottom: 80;
+}
+
+.section-containt-block ul{
+  list-style: none;
+}
+
+.section-containt-block li {
+  display: inline-block;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 50;
+}
+
+h3{
+  font-weight: 700;
+  font-size: 30;
+  margin-bottom: 0;
+  color: #e6b422;
+}
+
+.my-img-icon img {
+  height: 200;
+  width: 200;
+  border-radius: 50%;
+  border: 10px #fff solid;
+}
+
+/*モーダル関連*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.content{
+    margin: 0 auto;
+    padding: 40px;
+}
+.modal{
+    display: none;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.modal__bg{
+    background: rgba(0,0,0,0.8);
+    height: 100vh;
+    position: absolute;
+    width: 100%;
+}
+.modal__content{
+    background: #fff;
+    left: 50%;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 60%;
+}
+
+
+@media only screen and (min-width: 767px){
+  .my-img-icon img {
+    height: 320;
+    width: 320;
+    border-radius: 50%;
+    border: 10px #fff solid;
+  }
+}
+
+.my-text ul {
+  padding-left: 0;
+  font-size: 25;
+  font-weight: 700;
+}
+
+.section-containt-block div {
+  padding: 0px 0px 5px 0px;
+}
+
+/*
+#about {
+  background-image: url("../image/UNADJUSTEDNONRAW_thumb_5f0.jpg");
+*/
+
+
+.skill-containt {
+  margin-bottom: 40;
+}
+
+.skill-icon {
+  width: 70;
+  height: 70;
+}
+
+.skill-name {
+  font-weight: 900;
+  font-size: 25;
+}
+
+.skill-level {
+  color: red;
+}
+
+.control-label {
+  font-weight: 900;
+}
+
+#footer ul{
+  list-style: none;
+}
+
+
+#footer li {
+  display: inline-block;
+}
+
+#footer a {
+  text-decoration: none;
+  color: #fff;
+}
+
